@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+<body>
+    <div class="heading">
+        <h1>STOP WATCH</h1>
+    </div>
+    <div class="text-center">
+    <div>
+        <button  id ="min" type="button" class="btn btn-outline-primary">0</button>
+            <button  id ="sec" type="button" class="btn btn-outline-primary">0</button>
+            <button id ="msec" type="button" class="btn btn-outline-primary">0</button>
+    </div>
+    </div>
+    
+        <div class="text-center">
+            <div class="bot">
+            <button type="button" id="btn1" onclick="start()" class="btn btn-outline-primary">Start</button>
+            <button type="button" id="btn2" onclick="pause()" class="btn btn-outline-primary">Pause</button>
+            <button type="button" id="btn3" onclick="reset()" class="btn btn-outline-primary">Reset</button>
+            </div>
+        </div>
+        <div class="footer">
+            <div>
+                <p>Copyrights<i class="fa fa-copyright" aria-hidden="true"></i><br>Adeel Anwar</p>  
+            </div>
+        </div>
+    
+        <script src="app.js"></script>
+</body>
+
+
+</html>

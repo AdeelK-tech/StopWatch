@@ -1,0 +1,40 @@
+.heading {
+  margin-top: 200px;
+}
+.heading > h1 {
+  text-align: center;
+  color: rgb(174, 217, 247);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 50px;
+}
+body {
+  background-image: url(images/digital-transformation-service.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.text-center {
+  margin-top: 80px;
+}
+.btn-outline-primary{
+  height: 90px;
+  width: 90px;
+  font-size: 32px !important;
+  color:rgb(174, 217, 247) !important ;
+  font-family: monospace !important;
+}
+
+.bot>button{
+  height: 50px;
+  width: 100px;
+  color: rgb(174, 217, 247) !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+}
+.footer{
+ margin-top: 120px;
+}
+.footer>div{
+  text-align: center;
+  color: rgb(174, 217, 247);
+}
